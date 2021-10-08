@@ -12,3 +12,6 @@ Working:
 (2)If that email address is verified successfully then we ask the user to confirm that they want to send email to that email address
   (3)If user confirms,then SMTP session is started and user is asked to enter the message that they want to send.
   (4)If user does not confirms,then user has to enter the email address to whom they want to send email address.
+
+
+# Contact me if you have any Queries
