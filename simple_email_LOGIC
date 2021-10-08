@@ -2,4 +2,13 @@ Things to make sure before running simple_email.py file
 (1) You have successfully installed email validation package
   pip install py3-validate-email
 (2) You have entered your email address and password properly in confidential_data.py file
-(3) Also,both of these files should be in same directory
+(3) Also,both of these files(confidential_data.py and simple_email.py) should be in same directory
+
+Usage :
+(1) Sending a simple email without any subject and attachments
+
+Working:
+(1)Firstly,we ask the user to enter receivers email address and verifies that email address.
+(2)If that email address is verified successfully then we ask the user to confirm that they want to send email to that email address
+  (3)If user confirms,then SMTP session is started and user is asked to enter the message that they want to send.
+  (4)If user does not confirms,then user has to enter the email address to whom they want to send email address.
