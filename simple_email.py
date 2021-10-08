@@ -1,6 +1,4 @@
-from conf_det import email_address,email_password
-
-#pip install py3-validate-email
+from confidential_data import email_address,email_password
 from validate_email import validate_email
 import smtplib
 
