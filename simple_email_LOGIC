@@ -1,0 +1,5 @@
+Things to make sure before running simple_email.py file
+(1) You have successfully installed email validation package
+  pip install py3-validate-email
+(2) You have entered your email address and password properly in confidential_data.py file
+(3) Also,both of these files should be in same directory
