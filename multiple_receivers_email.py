@@ -1,4 +1,4 @@
-from conf_det import email_address,email_password
+from confidential_data import email_address,email_password
 import smtplib
 from validate_email import validate_email
 
