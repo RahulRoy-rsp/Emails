@@ -5,6 +5,8 @@ Things to make sure before running simple_email.py file
 (3) Also,both of these files(confidential_data.py and simple_email.py) should be in same directory
 (4) Turn Allow less secure apps to ON. Be aware that this makes it easier for others to gain access to your account.
     Under “Security” catalogue, find “Less secure app access” and turn it on.
+(5) Always try to use a development(create an email id) email address for this kind of stuff, an email id which is not much useful for you.
+    Try not to use your personal(important) email id.
 
 Usage :
 (1) Sending a simple email without any subject and attachments
