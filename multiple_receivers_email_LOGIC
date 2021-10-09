@@ -1,0 +1,21 @@
+Things to make sure before running simple_email.py file
+(1) You have successfully installed email validation package
+  pip install py3-validate-email
+(2) You have entered your email address and password properly in confidential_data.py file
+(3) Also,both of these files(confidential_data.py and multiple_receivers_email.py) should be in same directory
+
+Usage :
+Sending a simple email without any subject and attachments with multiple receipents.It could be useful in big organizations.
+
+Working:
+(1) We create a list which will contain the list of email addresses.
+(2) Then, user is asked to enter the message that they want to send to the recipents.
+(3) If the entered email address is verified successfully, then program asks the usere if they want to add more email addresses
+  (4) If yes,then step (3) is repeated but this time it will check if the entered email address is already existing in the list or not.
+  (5) If not, then the email is being sent to that receipent.
+
+Upgradation can de done:
+(1) This program can be upgraded such that a companies manager can send email to their employees automatically using an excel sheet and extracting employees email id from that sheet.
+(2) This way they dont have to manually enter a larger number of employees email address.
+
+# Contact me if you have any Queries
