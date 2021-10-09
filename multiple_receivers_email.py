@@ -21,7 +21,7 @@ def send_message():
 	print("Exiting program ...")
 
 def try_more():
-	inp = input("Do you want to add more email address(Y?N) : ")
+	inp = input("Do you want to add more email address(Y?N) : ").lower()
 	if inp == 'y':
 		take_receivers_email_id()
 	elif inp == 'n':
